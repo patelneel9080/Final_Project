@@ -1,0 +1,57 @@
+{
+    "dataset_name": "Customer Credit Risk",
+    "version": "1.0",
+    "source": "Synthetic + Multi-source integration",
+    "fields": [
+        {
+            "name": "customer_id",
+            "type": "int",
+            "description": "Unique ID"
+        },
+        {
+            "name": "age",
+            "type": "int",
+            "description": "Customer age"
+        },
+        {
+            "name": "gender",
+            "type": "category",
+            "description": "Gender"
+        },
+        {
+            "name": "region",
+            "type": "category",
+            "description": "Region"
+        },
+        {
+            "name": "education_level",
+            "type": "ordinal",
+            "description": "Education"
+        },
+        {
+            "name": "employment_type",
+            "type": "category",
+            "description": "Employment"
+        },
+        {
+            "name": "annual_income",
+            "type": "float",
+            "description": "Income"
+        },
+        {
+            "name": "loan_amount",
+            "type": "float",
+            "description": "Loan"
+        },
+        {
+            "name": "credit_score",
+            "type": "float",
+            "description": "Credit score"
+        },
+        {
+            "name": "default_flag",
+            "type": "binary",
+            "description": "Target variable"
+        }
+    ]
+}
