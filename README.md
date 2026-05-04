@@ -210,19 +210,6 @@ data = response.json()
 
 ---
 
-## 🚀 How to Run
-
-```bash
-# Install dependencies
-pip install -r requirements.txt
-
-# Run dataset generation
-python src/data_generation.py
-
-# Run preprocessing
-python src/preprocessing.py
-```
-
 ---
 
 ## 📈 Final Output
